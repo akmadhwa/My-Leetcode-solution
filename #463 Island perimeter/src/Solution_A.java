@@ -18,7 +18,7 @@ public class Solution_A {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[][] s = {{0, 0, 0, 1},
-					{1, 0, 0, 1}
+					{1 , 0, 0, 1}
 					};
 
 		System.out.println(islandPerimeter(s));

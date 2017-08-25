@@ -4,7 +4,7 @@ public class Solution_B {
 	public static boolean canConstruct(String ransomNote, String magazine) {
 		int[] map = new int[26];
 		for(char c : ransomNote.toCharArray()) {
-			int index = magazine.indexOf(c, map[c - 'a']);
+			int index = magazine.indexOf(c, map[c - 'a']); // indexOf(String substring, index from)
 			System.out.println(c+", "+index);
 			if(index == -1) {
 				return false;
