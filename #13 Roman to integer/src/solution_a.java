@@ -46,7 +46,7 @@ public class solution_a {
 		String s = "XXVIII";
 //		System.out.println(Arrays.toString(romanToString(s)));
 		System.out.println(romanToString(s));
-		System.out.println(4500%10);
+
 
 	}
 }
