@@ -15,7 +15,7 @@ public class solution_a {
 			}
 			if(nums[mid] != nums[mid + 1]) {
 				end = mid;
-				System.out.println("mid2 ="+mid);
+//				System.out.println("mid2 ="+mid);
 			}else {
 				start = mid + 2;
 			}
@@ -24,8 +24,9 @@ public class solution_a {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] nums = {2,2,3,3,4,4,8};
+		int[] nums = {3,3,4,4,8};
 		System.out.println(singleNonDuplicate(nums));
+//		System.out.println(nums.length);
 	}
 
 }
