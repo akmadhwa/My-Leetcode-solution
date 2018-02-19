@@ -29,6 +29,6 @@ public class RecursionMethod {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(letterCasePermutation(""));
+		System.out.println(letterCasePermutation("ab"));
 	}
 }
